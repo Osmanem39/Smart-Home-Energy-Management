@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e8f5e9;
+  margin: 0;
+  padding: 0;
+}
+.main-nav {
+  background: #222;
+  color: #fff;
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.main-nav .logo {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-right: auto;
+}
+.main-nav a {
+  color: #fff;
+  margin-right: 1em;
+  text-decoration: none;
+  font-weight: 500;
+}
+.main-nav .logout-btn {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+h2, h3 {
+  color: #388e3c;
+}
+.energy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.energy-table th, .energy-table td {
+  border: 1px solid #c8e6c9;
+  padding: 0.5em;
+  text-align: center;
+}
+.energy-table th {
+  background: #a5d6a7;
+}
+.energy-table tr:nth-child(even) {
+  background: #f1f8e9;
+}
+.summary {
+  background: #c8e6c9;
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+.details-table-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.login-bg, .dashboard-bg, .device-bg, .report-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-form {
+  background: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #a5d6a7;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.login-form input {
+  padding: 0.5em;
+  border: 1px solid #a5d6a7;
+  border-radius: 4px;
+}
+.login-form button {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 0.7em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login-form .error {
+  color: #d32f2f;
+}
+.device-bg input {
+  margin-right: 1em;
+}
+.device-bg .msg {
+  margin-top: 1em;
+  color: #388e3c;
+}
