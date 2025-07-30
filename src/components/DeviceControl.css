@@ -1,0 +1,73 @@
+.device-bg {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  min-height: 100vh;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #222;
+}
+.device-bg h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #d35400;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.08);
+}
+.device-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  width: 90vw;
+  max-width: 1100px;
+  margin-bottom: 30px;
+}
+.device-card {
+  background: rgba(255,255,255,0.95);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(243, 156, 18, 0.15);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s;
+  border: 2px solid #fcb69f;
+}
+.device-card:hover {
+  box-shadow: 0 12px 40px rgba(243, 156, 18, 0.25);
+  border-color: #d35400;
+}
+.device-info {
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+.toggle-btn {
+  background: linear-gradient(45deg, #fcb69f, #ffecd2);
+  color: #d35400;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(243, 156, 18, 0.08);
+}
+.toggle-btn:hover {
+  background: linear-gradient(45deg, #d35400, #fcb69f);
+  color: #fff;
+}
+.msg {
+  margin-top: 30px;
+  padding: 16px 32px;
+  background: #d35400;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(243, 156, 18, 0.12);
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+} 

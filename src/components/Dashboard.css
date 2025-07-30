@@ -1,0 +1,58 @@
+.dashboard-bg {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  padding: 40px 0;
+  color: #222;
+}
+.dashboard-bg h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  color: #2d3a4b;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.08);
+}
+.energy-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.08);
+}
+.energy-table th {
+  background: #cfdef3;
+  padding: 15px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #e0eafc;
+  color: #2d3a4b;
+}
+.energy-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e0eafc;
+  color: #222;
+  transition: background-color 0.3s ease;
+}
+.energy-table tr:hover {
+  background: #f5fafd;
+}
+.energy-table tr:last-child td {
+  border-bottom: none;
+}
+.summary-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.summary-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.08);
+  padding: 28px 40px;
+  font-size: 1.2rem;
+  color: #2d3a4b;
+  text-align: center;
+  min-width: 180px;
+} 
