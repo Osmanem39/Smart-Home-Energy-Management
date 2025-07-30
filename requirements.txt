@@ -1,8 +1,0 @@
-flask
-flask-cors
-flask-jwt-extended
-psycopg2-binary
-pandas
-scikit-learn
-joblib
-python-dotenv
